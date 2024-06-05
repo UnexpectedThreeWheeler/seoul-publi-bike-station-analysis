@@ -1,22 +1,19 @@
 # 2024 Data science team 5   
-# Analyze 따릉이 usage patterns and predict crowded rentals.       
+# Analyze 따릉이 usage patterns and predict congested station & time.       
 
-##### We are Gachon Univ. students.
-##### This project is for 2024 Data Science project.
-##### Since 2024/03 ~
 
 ### Team Member
 <table>
   <tbody>
     <tr>
       <td align="center"><img src="https://github.com/ExhaustedApes/coffee-maker/assets/118164288/88c77023-535a-48ab-b958-9c585ebdaaa9.png" width="100px;" alt=""/></td>
-      <td align="center"><img src="https://github.com/ExhaustedApes/coffee-maker/assets/118164288/714f4fa4-1d3c-433a-8e62-fbe5f86d30a0.png" width="100px;" alt=""/></td>
-      <td align="center"><img src="https://github.com/ExhaustedApes/coffee-maker/assets/118164288/e72dd819-6a77-43af-8397-435b6b6ff01d.png" width="100px;" alt=""/></td>
+      <td align="center"><img src="https://github.com/UnexpectedThreeWheeler/seoul-publi-bike-station-analysis/assets/118164288/fdf76552-eb72-4919-acfa-92295c6bcf08.png" width="100px;" alt=""/></td>
+      <td align="center"><img src="https://github.com/UnexpectedThreeWheeler/seoul-publi-bike-station-analysis/assets/118164288/eaea203a-ab8d-4a89-97cc-4a046bd4a3eb.png" width="100px;" alt=""/></td>
     </tr>
     <tr>
       <td align="center"><a href="https://github.com/KingHamster"><sub><b>KingHamster</b></sub></a></td>
-      <td align="center"><a href="https://github.com/"><sub><b>member1</b></sub></a></td>
-      <td align="center"><a href="https://github.com/"><sub><b>member2</b></sub></a></td>
+      <td align="center"><a href="https://github.com/doyeonRyu"><sub><b>doyeonRyu</b></sub></a></td>
+      <td align="center"><a href="https://github.com/minxxeo"><sub><b>minxxeo</b></sub></a></td>
     </tr>
   </tbody>
 </table>
@@ -24,6 +21,10 @@
 - 202135846 최지예   
 - 202235082 이민서   
 - 202235873 유도연   
+
+##### We are Gachon Univ. students.
+##### This project is for 2024 Data Science project.
+##### Since 2024/04 ~ 2024/06
 
 ## Dataset used   
 Data from March, June, June, and December 2023 from 서울 열린데이터광장, 기상청 기상자료개방포털      
