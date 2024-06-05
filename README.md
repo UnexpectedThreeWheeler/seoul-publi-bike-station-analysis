@@ -39,8 +39,6 @@ Evaluate KMeans clustering results using soft vector machine
 X=data[['대여소번호', '대여월', '대여시간대', '일 강수량', '기온(°C)']]   
 y = data['cluster']   
 
-### **SVM.py**   
-Classifies and evaluates a bike rental dataset using SVM.   
 ### **DecisionTree.py**      
 Modeling and evaluation using a decision tree classifier.      
 
