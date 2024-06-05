@@ -13,50 +13,51 @@ Data from March, June, June, and December 2023 from 서울 열린데이터광장, 기상청 
 - 서울(108) 강수량분석 일 자료   
 
 ## 1. Data preprocessing   
-**bikeRenstalData_init.py**   
+### **bikeRenstalData_init.py**   
 Preprocesses public bicycle usage data by time zone in Seoul   
 
-**bikeStationData_init.py**   
+### **bikeStationData_init.py**   
 Extract rental station numbers located in Yeongdeungpo-gu from Seoul's public bicycle rental station information      
 
-**weatherData_init.py**   
+### **weatherData_init.py**   
 Get Seoul temperature and precipitation data       
 
-**stationPropertyData_init.py**   
+### **stationPropertyData_init.py**   
 Extract the number of rentals and returns      
 
-**addSationPropertyToRentalData.py**   
+### **addSationPropertyToRentalData.py**   
 Merge rental station properties with rental history information in Yeongdeungpo       
 
 ## 2. Data Modeling and evaluation   
-**station_kMeans.py**
+### **station_kMeans.py**   
 Perform KMeans clustering by number of rentals, number of returns, and rental-return ratio to divide into 3 clusters      
 
-**station_SVM.py**   
+### **station_SVM.py**   
 Evaluate KMeans clustering results using soft vector machine   
-### Feature and target value
+
+### Feature and target value   
 X=data[['대여소번호', '대여월', '대여시간대', '일 강수량', '기온(°C)']]   
 y = data['cluster']   
 
-**SVM.py**   
+### **SVM.py**   
 Classifies and evaluates a bike rental dataset using SVM.   
-**DecisionTree.py**   
+### **DecisionTree.py**      
 Modeling and evaluation using a decision tree classifier.      
 
-**RandomForest.py**   
+### **RandomForest.py**   
 Modeling and evaluation using a random forest classifier.        
 
-**KNN.py**   
+### **KNN.py**   
 Modeling and evaluation using KNN classifier.    
 
   
-**GridSearchDT.py**  
+### **GridSearchDT.py**  
 Finds the best combination of parameters through a grid search, then runs the decision tree classifier once again and evaluates.      
 
-**GridSearchRF.py**   
+### **GridSearchRF.py**   
 Runs and evaluates a Random forest classifier once again after finding the optimal parameter combination via grid search.   
 
-**DecisionTreeClassifier_OpenSourceSW.py**
+### **DecisionTreeClassifier_OpenSourceSW.py**   
 Functionalizes the process of running and evaluating a grid search and decision tree classifier.   
 
 **RandomForestClassifier_OpenSourceSW.py**    
