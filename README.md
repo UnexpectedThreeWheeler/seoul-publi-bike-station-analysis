@@ -12,6 +12,8 @@
       <td align="center"><img src="https://github.com/ExhaustedApes/coffee-maker/assets/118164288/88c77023-535a-48ab-b958-9c585ebdaaa9.png" width="100px;" alt=""/></td>
       <td align="center"><img src="https://github.com/ExhaustedApes/coffee-maker/assets/118164288/714f4fa4-1d3c-433a-8e62-fbe5f86d30a0.png" width="100px;" alt=""/></td>
       <td align="center"><img src="https://github.com/ExhaustedApes/coffee-maker/assets/118164288/e72dd819-6a77-43af-8397-435b6b6ff01d.png" width="100px;" alt=""/></td>
+    </tr>
+    <tr>
       <td align="center"><a href="https://github.com/KingHamster"><sub><b>KingHamster</b></sub></a></td>
       <td align="center"><a href="https://github.com/"><sub><b>member1</b></sub></a></td>
       <td align="center"><a href="https://github.com/"><sub><b>member2</b></sub></a></td>
