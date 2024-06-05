@@ -1,16 +1,35 @@
 # 2024 Data science team 5   
-# Analyze µû¸ªÀÌ usage patterns and predict crowded rentals.       
-- 202135846 ÃÖÁö¿¹   
-- 202235082 ÀÌ¹Î¼­   
-- 202235873 À¯µµ¿¬   
+# Analyze ë”°ë¦‰ì´ usage patterns and predict crowded rentals.       
+
+##### We are Gachon Univ. students.
+##### This project is for 2024 Data Science project.
+##### Since 2024/03 ~
+
+### Team Member
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><img src="https://github.com/ExhaustedApes/coffee-maker/assets/118164288/88c77023-535a-48ab-b958-9c585ebdaaa9.png" width="100px;" alt=""/></td>
+      <td align="center"><img src="https://github.com/ExhaustedApes/coffee-maker/assets/118164288/714f4fa4-1d3c-433a-8e62-fbe5f86d30a0.png" width="100px;" alt=""/></td>
+      <td align="center"><img src="https://github.com/ExhaustedApes/coffee-maker/assets/118164288/e72dd819-6a77-43af-8397-435b6b6ff01d.png" width="100px;" alt=""/></td>
+      <td align="center"><a href="https://github.com/KingHamster"><sub><b>KingHamster</b></sub></a></td>
+      <td align="center"><a href="https://github.com/"><sub><b>member1</b></sub></a></td>
+      <td align="center"><a href="https://github.com/"><sub><b>member2</b></sub></a></td>
+    </tr>
+  </tbody>
+</table>
+
+- 202135846 ìµœì§€ì˜ˆ   
+- 202235082 ì´ë¯¼ì„œ   
+- 202235873 ìœ ë„ì—°   
 
 ## Dataset used   
-Data from March, June, June, and December 2023 from ¼­¿ï ¿­¸°µ¥ÀÌÅÍ±¤Àå, ±â»óÃ» ±â»óÀÚ·á°³¹æÆ÷ÅĞ      
-- ¼­¿ïÆ¯º°½Ã °ø°øÀÚÀü°Å ÀÌ¿ëÁ¤º¸(½Ã°£´ëº°)   
-- ¼­¿ïÆ¯º°½Ã °ø°øÀÚÀü°Å ´ë¿©ÀÌ·Â Á¤º¸   
-- °ø°øÀÚÀü°Å ´ë¿©¼Ò Á¤º¸   
+Data from March, June, June, and December 2023 from ì„œìš¸ ì—´ë¦°ë°ì´í„°ê´‘ì¥, ê¸°ìƒì²­ ê¸°ìƒìë£Œê°œë°©í¬í„¸      
+- ì„œìš¸íŠ¹ë³„ì‹œ ê³µê³µìì „ê±° ì´ìš©ì •ë³´(ì‹œê°„ëŒ€ë³„)   
+- ì„œìš¸íŠ¹ë³„ì‹œ ê³µê³µìì „ê±° ëŒ€ì—¬ì´ë ¥ ì •ë³´   
+- ê³µê³µìì „ê±° ëŒ€ì—¬ì†Œ ì •ë³´   
 - SYNOP_AWOS_1209_MI(temperature)   
-- ¼­¿ï(108) °­¼ö·®ºĞ¼® ÀÏ ÀÚ·á   
+- ì„œìš¸(108) ê°•ìˆ˜ëŸ‰ë¶„ì„ ì¼ ìë£Œ   
 
 ## 1. Data preprocessing   
 ### **bikeRenstalData_init.py**   
@@ -36,7 +55,7 @@ Perform KMeans clustering by number of rentals, number of returns, and rental-re
 Evaluate KMeans clustering results using soft vector machine   
 
 ### Feature and target value   
-X=data[['´ë¿©¼Ò¹øÈ£', '´ë¿©¿ù', '´ë¿©½Ã°£´ë', 'ÀÏ °­¼ö·®', '±â¿Â(¡ÆC)']]   
+X=data[['ëŒ€ì—¬ì†Œë²ˆí˜¸', 'ëŒ€ì—¬ì›”', 'ëŒ€ì—¬ì‹œê°„ëŒ€', 'ì¼ ê°•ìˆ˜ëŸ‰', 'ê¸°ì˜¨(Â°C)']]   
 y = data['cluster']   
 
 ### **DecisionTree.py**      
