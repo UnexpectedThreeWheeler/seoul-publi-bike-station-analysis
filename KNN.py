@@ -96,8 +96,6 @@ from sklearn.metrics import mean_absolute_error
 mae = mean_absolute_error(y_test, y_pred)
 print('MAE:', mae)
 
-exit()
-
 # confusion matrix visualization
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -106,3 +104,6 @@ plt.xlabel('prediction')
 plt.ylabel('target')
 plt.title('confusion matrix')
 plt.show()
+
+exit()
+
